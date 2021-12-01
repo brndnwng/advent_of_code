@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem "debase"
+
+gem "ruby-debug-ide", "~> 0.7.3"
