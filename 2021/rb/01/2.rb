@@ -1,6 +1,5 @@
 input_arr = File.readlines("./data_input/input01.txt").grep(/\d+/, &:to_i)
 
-
 triplets = input_arr.each_cons(3)
 puts input_arr
 count = 0
