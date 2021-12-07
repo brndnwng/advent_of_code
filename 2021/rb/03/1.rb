@@ -23,11 +23,9 @@ class BinaryDiagnostic
        epislon = 0
        for i in 0...ones.length() do
            if ones[i] > zeroes[i]
-            puts "here"
             gamma = (gamma << 1) + 1
             epislon = epislon << 1
            else
-            puts "there"
             epislon = (epislon << 1) + 1
             gamma = gamma << 1
            end
